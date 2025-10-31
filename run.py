@@ -29,13 +29,13 @@ import os
 AI_BACKEND = "ollama"  # <-- ！！！您只需要修改这一行！！！
 
 # ===== 2. Remote (远程) 配置 =====
-REMOTE_API_KEY = "sk-4ldUznwMK9DXqSXtnBHIc2zOuKPh66ue5C4LINF5naQWcpTI"
-REMOTE_API_URL = "https://api.moonshot.cn/v1/chat/completions"  # OpenAI 兼容 URL
-REMOTE_MODEL = "kimi-latest"
+REMOTE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # 在这里填写您的 Remote API Key
+REMOTE_API_URL = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # OpenAI 兼容 URL
+REMOTE_MODEL = "xxxxxxxxxx"                           # 模型名称
 
 # ===== 3. Ollama (本地) 配置 =====
 OLLAMA_API_URL = "http://127.0.0.1:11434/api/chat"
-OLLAMA_MODEL = "qwen2.5-coder:14b"
+OLLAMA_MODEL = "xxxxxxxxxx"                           # 模型名称
 
 # ===== 4. 通用配置 =====
 OCR_LANG = 'chi_sim+eng'
