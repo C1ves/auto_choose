@@ -19,9 +19,9 @@ import sys
 import os
 
 # ===== 配置 (请修改为您自己的) =====
-AI_API_KEY = "sk-4ldUznwMK9DXqSXtnBHIc2zOuKPh66ue5C4LINF5naQWcpTI"
-AI_API_URL = "https://api.moonshot.cn/v1/chat/completions"
-AI_MODEL = "kimi-latest"
+AI_API_KEY = "xxxxxxxxxx"
+AI_API_URL = "xxxxxxxxxx"
+AI_MODEL = "xxxxxxxxxx"
 OCR_LANG = 'chi_sim+eng'
 TIME_LIMIT_SECONDS = 3
 
